@@ -1,6 +1,6 @@
 # Introduction
 
-I created this repository to keep track of which features are available in which releases of NodeJS and it's V8 JavaScript engine.
+Keeping track of which features are available in which releases of NodeJS and it's V8 JavaScript engine.
 
 
 - [V8 JavaScript engine](./v8-releases/releases.md)
