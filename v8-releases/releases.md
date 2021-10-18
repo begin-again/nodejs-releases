@@ -6,7 +6,7 @@ Performance improvements and web assembly are not included.
 
 |                                                                                                                        |
 | :--------------------------------------------------------------------------------------------------------------------- |
-| [9.0](#90), [9.1](#91), [9.2](#92), [9.3](#93)                                                                         |
+| [9.0](#90), [9.1](#91), [9.2](#92), [9.3](#93), [9.4](#94), [9.5](#95), [9.6](#96)                                     |
 | [8.0](#80), [8.1](#81), [8.4](#84), [8.5](#85), [8.6](#86), [8.7](#87), [8.8](#88), [8.9](#89)                         |
 | [7.0](#70), [7.1](#71), [7.2](#72), [7.3](#73), [7.4](#74), [7.5](#75), [7.6](#76), [7.9](#79), [7.7](#77), [7.8](#78) |
 | [6.0](#60), [6.1](#61), [6.2](#62), [6.3](#63), [6.4](#64), [6.5](#65), [6.6](#66), [6.7](#67), [6.8](#68), [6.9](#69) |
@@ -14,6 +14,48 @@ Performance improvements and web assembly are not included.
 
 
 ## Highlights
+
+### 9.6
+
+<a href="#v96">
+
+- [blog](https://v8.dev/blog/v8-release-96
+
+
+
+### 9.5
+
+<a href="#v95">
+
+- [blog](https://v8.dev/blog/v8-release-95)
+
+- Intl.DisplayNames v2
+  - added: calendar, dateTimeField
+  - enhanced the support for the “language” type with a new languageDisplay option, 
+- Extended timeZoneName option
+  - Intl.DateTimeFormat API in v9.5 now supports four new values for the timeZoneName option:
+    - _shortGeneric_ to output the name of the time zone as in a short generic non-location format, such as “PT”, “ET”, without indicating whether it is under daylight saving time.
+    - _longGeneric_ to output the name of the time zone as in a short generic non-location format, such as _Pacific Time_, _Mountain Time_, without indicating whether it is under daylight saving time.
+    - _shortOffset_ to output the name of the time zone as in the short localized GMT format, such as _GMT-8_.
+    - _longOffset_ to output the name of the time zone as in the long localized GMT format, such as “GMT-0800”.
+
+
+### 9.4
+
+<a href="#v94">
+
+[blog](https://v8.dev/blog/v8-release-94)
+
+- Class static initialization blocks
+
+```js
+class C {
+  // This block will run when the class itself is evaluated
+  static { console.log("C's static block"); }
+}
+
+```
+
 
 ### 9.3
 
