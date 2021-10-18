@@ -20,12 +20,20 @@
 
 `node -p "process.versions['v8']"`
 
+
 ### harmony flags
 
 - `node --v8-options | grep "in progress" | sort`
 - `node --v8-options | grep -v "in progress" | grep harmony | sort`
 
 <br><hr>
+
+## Deprecations
+
+[Deprecations](https://nodejs.org/dist/latest-v16.x/docs/api/deprecations.html)
+
+<br><hr>
+
 
 ## upgrading npm
 
