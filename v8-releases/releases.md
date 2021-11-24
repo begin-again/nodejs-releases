@@ -19,15 +19,14 @@ Performance improvements and web assembly are not included.
 
 <a href="#v96">
 
-- [blog](https://v8.dev/blog/v8-release-96
-
+[blog](https://v8.dev/blog/v8-release-96)
 
 
 ### 9.5
 
 <a href="#v95">
 
-- [blog](https://v8.dev/blog/v8-release-95)
+[blog](https://v8.dev/blog/v8-release-95)<br>
 
 - Intl.DisplayNames v2
   - added: calendar, dateTimeField
