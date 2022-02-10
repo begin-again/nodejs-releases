@@ -6,7 +6,7 @@ Performance improvements and web assembly are not included.
 
 |                                                                                                                        |
 | :--------------------------------------------------------------------------------------------------------------------- |
-| [9.0](#90), [9.1](#91), [9.2](#92), [9.3](#93), [9.4](#94), [9.5](#95), [9.6](#96)                                     |
+| [9.0](#90), [9.1](#91), [9.2](#92), [9.3](#93), [9.4](#94), [9.5](#95), [9.6](#96), [9.9](#99), [9.9](#99)             |
 | [8.0](#80), [8.1](#81), [8.4](#84), [8.5](#85), [8.6](#86), [8.7](#87), [8.8](#88), [8.9](#89)                         |
 | [7.0](#70), [7.1](#71), [7.2](#72), [7.3](#73), [7.4](#74), [7.5](#75), [7.6](#76), [7.9](#79), [7.7](#77), [7.8](#78) |
 | [6.0](#60), [6.1](#61), [6.2](#62), [6.3](#63), [6.4](#64), [6.5](#65), [6.6](#66), [6.7](#67), [6.8](#68), [6.9](#69) |
@@ -14,6 +14,33 @@ Performance improvements and web assembly are not included.
 
 
 ## Highlights
+
+
+### 9.9
+
+<a href="#v99">
+
+[blog](https://v8.dev/blog/v8-release-98)
+
+- new properties added to Intl.Locale
+  - textInfo, `{ direction: 'rtl' }`
+  - weekInfo, `{firstDay: 6, weekend: [5, 6], minimalDays: 1}`
+  - calendars, collations, hourCycles, numberingSystems, timeZones
+    - array of preferred identifiers of those in common use
+- Intl.[supportedValuesOf](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf)
+
+### 9.7
+
+<a href="#97">
+
+[blog](https://v8.dev/blog/v8-release-97)
+
+- findLast and findLastIndex array methods
+```js
+[1,2,3,4].findLast( el => el % 2 === 0) // 4
+[1,2,3,4].findLastIndex( el => el % 2 === 0) // 3
+```
+
 
 ### 9.6
 
@@ -30,7 +57,7 @@ Performance improvements and web assembly are not included.
 
 - Intl.DisplayNames v2
   - added: calendar, dateTimeField
-  - enhanced the support for the “language” type with a new languageDisplay option, 
+  - enhanced the support for the “language” type with a new languageDisplay option,
 - Extended timeZoneName option
   - Intl.DateTimeFormat API in v9.5 now supports four new values for the timeZoneName option:
     - _shortGeneric_ to output the name of the time zone as in a short generic non-location format, such as “PT”, “ET”, without indicating whether it is under daylight saving time.
