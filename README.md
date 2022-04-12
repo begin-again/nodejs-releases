@@ -6,3 +6,4 @@ Keeping track of which features are available in which releases of NodeJS and it
 - [ECMA Script](./ecma-script.md)
 - [NodeJS Releases](./node/index.md)
 - [V8 JavaScript engine](./v8/releases.md)
+- [Vue.js Releases](./vue/index.md)
