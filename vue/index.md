@@ -7,6 +7,7 @@ Includes supporting modules and tooling
 - [Veutify](#veutify)
 - [Vuex](#vuex)
 - [Pinia](#pinia)
+- [Vue-router](#vue-router)
 - [Testing-library](#testing-library)
 
 
@@ -29,7 +30,7 @@ Long-term Support for the latest minor of the last major release. This means wit
 | [2.4](https://github.com/vuetifyjs/vuetify/releases/tag/v2.4.0) |   2    | 23-DEC-2020 | 23-DEC-2021 |  2.6  | ^12, ^14 |
 | [2.5](https://github.com/vuetifyjs/vuetify/releases/tag/v2.5.0) |   2    | 11-MAY-2021 | 11-MAY-2022 |  2.6  | ^12, ^14 |
 | [2.6](https://github.com/vuetifyjs/vuetify/releases/tag/v2.6.0) |   2    | 15-NOV-2021 | 15-NOV-2023 |  2.6  |   >=12   |
-|                               2.7                               |  DEV   |     --      |  SEP-2023   |   2   |   >=12   |
+|                               2.7                               |  DEV   |     --      |  SEP-2023   |  2.6  |   >=12   |
 |                                3                                |  DEV   | (MAY-2022)  |  SEP-2023   |  3.2  |   >=12   |
 
 
@@ -50,6 +51,13 @@ A state management pattern + library for Vue.js applications. It serves as a cen
 Pinia works both for Vue 2.x and Vue 3.x. It requires Vue 2 with the latest @vue/composition-api or Vue ^3.2.0-0.
 
 
+## Vue-router
+
+
+| Version | Status |  Released   | LTS Ends |  Vue  | NodeJS |
+| :-----: | :----: | :---------: | :------: | :---: | :----: |
+|    4    | Active | 07-DEC-202  |          |   3   |
+|    3    | Active | 06-AUG-2019 |          |   2   |
 
 
 ## Testing-library
