@@ -22,6 +22,8 @@ Includes supporting modules and tooling
 
 ## Veutify
 
+Material Design Framework
+
 Long-term Support for the latest minor of the last major release. This means with each major release for 12 months after a new major release, existing version will be updated for critical bugs and security vulnerabilities.
 
 |                             Version                             | Status |  Released   |  LTS Ends   |  Vue  |  NodeJS  |

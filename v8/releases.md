@@ -6,6 +6,7 @@ Performance improvements and web assembly are not included.
 
 |                                                                                                                        |
 | :--------------------------------------------------------------------------------------------------------------------- |
+| [10.1](#101)                                                                                                           |
 | [9.0](#90), [9.1](#91), [9.2](#92), [9.3](#93), [9.4](#94), [9.5](#95), [9.6](#96), [9.9](#99), [9.9](#99)             |
 | [8.0](#80), [8.1](#81), [8.4](#84), [8.5](#85), [8.6](#86), [8.7](#87), [8.8](#88), [8.9](#89)                         |
 | [7.0](#70), [7.1](#71), [7.2](#72), [7.3](#73), [7.4](#74), [7.5](#75), [7.6](#76), [7.9](#79), [7.7](#77), [7.8](#78) |
@@ -16,11 +17,20 @@ Performance improvements and web assembly are not included.
 ## Highlights
 
 
+### 10.1
+
+<a href="#v101">
+
+
+- [Array.prototype.findLast]() `[{a:1, b:2},{a:1, b:3}].findLast(o => o.a === 1) // { a: 1, b: 3 }` |
+
+
+
 ### 9.9
 
 <a href="#v99">
 
-[blog](https://v8.dev/blog/v8-release-98)
+[blog](https://v8.dev/blog/v8-release-99)
 
 - new properties added to Intl.Locale
   - textInfo, `{ direction: 'rtl' }`
@@ -28,6 +38,8 @@ Performance improvements and web assembly are not included.
   - calendars, collations, hourCycles, numberingSystems, timeZones
     - array of preferred identifiers of those in common use
 - Intl.[supportedValuesOf](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf)
+
+
 
 ### 9.7
 
