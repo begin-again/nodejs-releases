@@ -64,12 +64,12 @@ Pinia works both for Vue 2.x and Vue 3.x. It requires Vue 2 with the latest @vue
 
 ## Testing-library
 
-@testing-library/vue
-    - node: >10.18
-    - @babel/runtime: ^7.12.5
-    - @testing-library/dom: ^7.26.6
-    - @vue/test-util: ^1.1.0
-    - vue: ^2.3.17
-    - vue-template-compiler: ^2.6.10
-@testing-library/jest-dom
+- @testing-library/vue
+  - node: >10.18
+  - @babel/runtime: ^7.12.5
+  - @testing-library/dom: ^7.26.6
+  - @vue/test-util: ^1.1.0
+  - vue: ^2.3.17
+  - vue-template-compiler: ^2.6.10
+- @testing-library/jest-dom
     -
