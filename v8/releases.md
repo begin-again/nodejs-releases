@@ -2,11 +2,11 @@
 
 Performance improvements and web assembly are not included.
 
-[V8 Blog](https://v8.dev/blog)
+[V8 Blog](https://v8.dev/blog), [Chrome Roadmap](https://chromestatus.com/roadmap), [Repository](https://chromium.googlesource.com/v8/v8.git/)
 
 |                                                                                                                        |
 | :--------------------------------------------------------------------------------------------------------------------- |
-| [10.1](#101)                                                                                                           |
+| [10.1](#101), [10.6](#106)                                                                                             |
 | [9.0](#90), [9.1](#91), [9.2](#92), [9.3](#93), [9.4](#94), [9.5](#95), [9.6](#96), [9.9](#99), [9.9](#99)             |
 | [8.0](#80), [8.1](#81), [8.4](#84), [8.5](#85), [8.6](#86), [8.7](#87), [8.8](#88), [8.9](#89)                         |
 | [7.0](#70), [7.1](#71), [7.2](#72), [7.3](#73), [7.4](#74), [7.5](#75), [7.6](#76), [7.9](#79), [7.7](#77), [7.8](#78) |
@@ -15,6 +15,13 @@ Performance improvements and web assembly are not included.
 
 
 ## Highlights
+
+
+### 10.6
+
+<a href="#v106">
+
+- [Intl.NumberFormat v3](https://github.com/tc39/proposal-intl-numberformat-v3)
 
 
 ### 10.1
