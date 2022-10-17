@@ -12,7 +12,7 @@
 | [19](./v19.md) | Pending    | 2022-10-18 |            |             | 2023-04-01 | 2023-06-01  |
 | [20](./v20.md) | Pending    | 2023-04-18 | 2023-10-24 |             | 2024-10-22 | 2026-04-30  |
 
-[Release change logs](https://github.com/nodejs/node/tree/master/doc/changelogs), [History](https://github.com/nodejs/node/commits/master/doc/changelogs)
+[Release change logs](https://github.com/nodejs/node/tree/main/doc/changelogs), [History](https://github.com/nodejs/node/commits/main/doc/changelogs)
 
 <br><hr>
 
