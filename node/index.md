@@ -9,7 +9,7 @@
 | [16](./v16.md) | Active LTS | 2021-04-20 | 2021-10-26 |   16.13.0   | 2022-10-18 | 2023-09-11  |
 | [17](./v17.md) | Maint      | 2021-10-19 |            |             | 2022-04-01 | 2022-06-01  |
 | [18](./v18.md) | Current    | 2022-04-19 | 2022-10-24 |             | 2023-10-22 | 2025-04-30  |
-| [19](./v19.md) | Pending    | 2022-10-18 |            |             | 2023-04-01 | 2023-06-01  |
+| [19](./v19.md) | Current    | 2022-10-18 |            |             | 2023-04-01 | 2023-06-01  |
 | [20](./v20.md) | Pending    | 2023-04-18 | 2023-10-24 |             | 2024-10-22 | 2026-04-30  |
 
 [Release change logs](https://github.com/nodejs/node/tree/main/doc/changelogs), [History](https://github.com/nodejs/node/commits/main/doc/changelogs)

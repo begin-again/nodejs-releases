@@ -20,6 +20,7 @@ Performance improvements and web assembly are not included.
 ### 10.6
 
 <a href="#v106">
+<a href="#v107">
 
 - [Intl.NumberFormat v3](https://github.com/tc39/proposal-intl-numberformat-v3)
 
@@ -27,6 +28,7 @@ Performance improvements and web assembly are not included.
 ### 10.1
 
 <a href="#v101">
+<a href="#v102">
 
 
 - [Array.prototype.findLast]() `[{a:1, b:2},{a:1, b:3}].findLast(o => o.a === 1) // { a: 1, b: 3 }` |
