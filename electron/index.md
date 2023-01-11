@@ -21,6 +21,8 @@ The latest three stable major versions are supported by the Electron team. For e
 | [22.0.0](https://github.com/electron/electron/releases/tag/v22.0.0) | 30-NOV-2022 |  | [16.17.1](../node/v16.md) | [108](https://chromestatus.com/features#milestone%3D108) | 10.8 |
 
 
+[Official electron timelines](https://github.com/electron/electron/blob/main/docs/tutorial/electron-timelines.md)
+
 
 ## Breaking Changes
 
