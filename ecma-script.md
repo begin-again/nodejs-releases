@@ -4,16 +4,18 @@ ESNext refers to the next upcoming version.
 
 See [kangax](http://kangax.github.io/compat-table/es6/), [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference) and [CanIUse.com](https://caniuse.com/ ) for browser support.
 
-* [sources](#sources)
-* [5](#5)
-* [2015](#2015)
-* [2016](#2016)
-* [2017](#2017)
-* [2018](#2018)
-* [2019](#2019)
-* [2020](#2020)
-* [2021](#2021)
-* [next](#next)
+- [sources](#sources)
+- [5](#5)
+- [2015](#2015)
+- [2016](#2016)
+- [2017](#2017)
+- [2018](#2018)
+- [2019](#2019)
+- [2020](#2020)
+- [2021](#2021)
+- [2022](#2022)
+- [2023](#2023)
+- [next](#next)
 
 ## sources
 
@@ -282,16 +284,36 @@ Also known as ES6. No IE11 support except through polyfills. [language spec](htt
   - ??= setter not un-necessarily invoked
 
 
-## next
+## 2022
 
-- [instance class fields](https://github.com/tc39/proposal-class-fields)
-- [static class fields](https://github.com/tc39/proposal-static-class-features)
-- [private class methods](https://github.com/tc39/proposal-private-methods)
-- [Legacy RegExp features in JavaScript](https://github.com/tc39/proposal-regexp-legacy-features)
-- [Hash bang Grammar](https://github.com/tc39/proposal-hashbang/)
-- [Class static initialization blocks](https://github.com/tc39/proposal-class-static-block)
+[language spec](https://262.ecma-international.org/13.0/)
+<br>
+
+- [top-level await](https://github.com/tc39/proposal-top-level-await)
 - [Ergonomic brand checks for private fields](https://github.com/tc39/proposal-private-fields-in-in)
 - [at() method on the built-in index-ables](https://github.com/tc39/proposal-relative-indexing-method)
   - Array.prototype.at()
   - String.prototype.at()
   - %TypedArray%.prototype.at()
+- [Class static initialization blocks](https://github.com/tc39/proposal-class-static-block)
+- [Error Cause](https://github.com/tc39/proposal-error-cause)
+- [Object.hasOwn()](https://github.com/tc39/proposal-accessible-object-hasownproperty)
+- [Regex Match Indices](https://github.com/tc39/proposal-regexp-match-indices)
+- [static class fields](https://github.com/tc39/proposal-static-class-features)
+- [private class methods](https://github.com/tc39/proposal-private-methods)
+- [class fields](https://github.com/tc39/proposal-class-fields)
+
+
+## 2023
+
+<br>
+
+- [Array find from last](https://github.com/tc39/proposal-array-find-from-last)
+- [Hash bang Grammar](https://github.com/tc39/proposal-hashbang/)
+- [Symbols as weak map keys](https://github.com/tc39/proposal-symbols-as-weakmap-keys)
+- [Change array by copy](https://github.com/tc39/proposal-change-array-by-copy)
+
+
+## next
+
+- [Legacy RegExp features in JavaScript](https://github.com/tc39/proposal-regexp-legacy-features)
