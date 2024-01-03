@@ -34,6 +34,7 @@
 ## upgrading npm
 
 There is no handy way to update node package manager (npm) via the node version manager for windows. Below are the steps to perform the upgrade manually.
+- May cause changes to `package-lock.json` so don't do this unless entire team does as well. If the lock file does change, ensure that any existing branches are also migrated.
 
 1. `nvm use <version to upgrade>`
 1. `cd $NVM_HOME/version to upgrade`
